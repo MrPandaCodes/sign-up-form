@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    
+</head>
+<body>
+    <div id="background">
+        <img src="pexels-curioso-photography-343685.jpg" class="background-img" alt="A view of Arctic Fjords, Photo by Curioso Photography"/>
+    </div>
+    
+    
+    <main>
+        <div id="left-sect">
+            <div id="logo">
+                <img src="./bearlogo.png" alt="Bear logo">
+            </div>
+            <p>Photo by Curioso Photography</p>
+        </div>
+        <div id="right-sect">
+            <div id="head-box">
+                <div id="head-text">
+                    <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <p>Sign up <span>now</span> to get started.</p> 
+                    </h1>
+                    <h1>You <span>know</span> you want to</h1>
+                </div>
+                
+            </div>
+            <div id="form-box">
+                <h3>Let's do this!</h3>
+        <form>
+            <p>
+                <label for="name-first">FIRST NAME</label>
+                <input type="text" id="name-first" name="first-name">
+            </p>
+            <p>
+                <label for="name-last">LAST NAME</label>
+                <input type="text" id="name-last" name="last-name">
+            </p>
+            <p>
+                <label for="mail">E-MAIL</label>
+                <input type="email" id="mail" name="email" required>
+            </p>
+            <p>
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" id="phone" name="cellnumber" pattern="[0-9]{3}[0-9]{7}" maxlength="10" required>
+            </p>
+            <p>
+                <label for="pass">PASSWORD</label>
+                <input type="text" id="pass" name="pass" required>
+            </p>
+            <p>
+                <label for="pass-check">CONFIRM PASSWORD</label>
+                <input type="text" id="pass-check" name="pass-check" required>
+            </p>
+            
+        </form>
+            </div>
+            <div id="login-box">
+        <button>CREATE ACCOUNT</button>
+        <p>Already have an account? <span>Log in</span></p>
+            </div>
+        </div>
+        
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
