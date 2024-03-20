@@ -12,7 +12,7 @@
     <div id="background">
         <img src="pexels-curioso-photography-343685.jpg" class="background-img" alt="A view of Arctic Fjords, Photo by Curioso Photography"/>
     </div>
-    
+    <div id="test"></div>
     
     <main>
         <div id="left-sect">
@@ -49,13 +49,13 @@
                 <label for="phone">PHONE NUMBER</label>
                 <input type="tel" id="phone" name="cellnumber" pattern="[0-9]{3}[0-9]{7}" maxlength="10" required>
             </p>
-            <p>
+            <p id="passbox">
                 <label for="pass">PASSWORD</label>
-                <input type="text" id="pass" name="pass" required>
+                <input type="password" class="invalid" id="pass" name="pass" required>
             </p>
             <p>
                 <label for="pass-check">CONFIRM PASSWORD</label>
-                <input type="text" id="pass-check" name="pass-check" required>
+                <input type="password" class="invalid" id="pass-check" name="pass-check" required>
             </p>
             
         </form>
